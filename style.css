@@ -1,0 +1,61 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffb703;
+}
+.container {
+  height: 40vh;
+  background-color: #219ebc;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.form_opt {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  height: 2rem;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+h1 {
+  font-family: "Black Ops One", system-ui;
+  color: #001a27;
+}
+p {
+  font-family: "Abril Fatface", serif;
+  color: #03045e;
+}
+button {
+  margin-top: 20px;
+  font-family: fantasy;
+  border: 0;
+  height: 2rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 27px;
+  color: #023047;
+  background-color: #fb8500;
+}
+img {
+  height: 2.8rem;
+}
+button:hover {
+  background-color: #ffa136;
+}
+button:active {
+  scale: 0.97;
+}
